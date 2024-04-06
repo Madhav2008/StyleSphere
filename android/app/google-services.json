@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667989880810",
+    "project_id": "e-commerce-madhav",
+    "storage_bucket": "e-commerce-madhav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667989880810:android:9948ce324c2f2bbe938c93",
+        "android_client_info": {
+          "package_name": "com.madhav.style_sphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMpdyxwWczTUHXEECGUD4QVppOc4g-GAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
