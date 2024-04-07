@@ -1,12 +1,13 @@
-import 'package:amazon_clone_tutorial/features/cart/services/cart_services.dart';
-import 'package:amazon_clone_tutorial/features/product_details/services/product_details_services.dart';
-import 'package:amazon_clone_tutorial/models/product.dart';
-import 'package:amazon_clone_tutorial/providers/user_provider.dart';
+import 'package:style_sphere/features/cart/services/cart_services.dart';
+import 'package:style_sphere/features/product_details/services/product_details_services.dart';
+import 'package:style_sphere/models/product.dart';
+import 'package:style_sphere/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class CartProduct extends StatefulWidget {
   final int index;
+
   const CartProduct({
     Key? key,
     required this.index,
