@@ -1,15 +1,16 @@
-import 'package:amazon_clone_tutorial/common/widgets/loader.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/features/home/widgets/address_box.dart';
-import 'package:amazon_clone_tutorial/features/product_details/screens/product_details_screen.dart';
-import 'package:amazon_clone_tutorial/features/search/services/search_services.dart';
-import 'package:amazon_clone_tutorial/features/search/widget/searched_product.dart';
-import 'package:amazon_clone_tutorial/models/product.dart';
+import 'package:style_sphere/common/widgets/loader.dart';
+import 'package:style_sphere/constants/global_variables.dart';
+import 'package:style_sphere/features/home/widgets/address_box.dart';
+import 'package:style_sphere/features/product_details/screens/product_details_screen.dart';
+import 'package:style_sphere/features/search/services/search_services.dart';
+import 'package:style_sphere/features/search/widget/searched_product.dart';
+import 'package:style_sphere/models/product.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatefulWidget {
   static const String routeName = '/search-screen';
   final String searchQuery;
+
   const SearchScreen({
     Key? key,
     required this.searchQuery,
