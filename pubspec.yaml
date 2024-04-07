@@ -46,8 +46,9 @@ dependencies:
   flutter_rating_bar:
   pay:
   intl:
+#  charts_flutter: ^0.11.0
+  flutter_echarts: ^2.5.0
   flutter_native_splash:
-#  charts_flutter: ^0.12.0
 
 flutter_native_splash:
   color: "#000000"
