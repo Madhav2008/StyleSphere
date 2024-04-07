@@ -1,5 +1,5 @@
 import 'package:style_sphere/features/admin/models/sales.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+// import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
 
 class CategoryProductsChart extends StatelessWidget {
@@ -12,9 +12,10 @@ class CategoryProductsChart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return charts.BarChart(
-      seriesList,
-      animate: true,
-    );
+    // return charts.BarChart(
+    //   seriesList,
+    //   animate: true,
+    // );
+    return Container();
   }
 }
