@@ -1,7 +1,7 @@
-import 'package:amazon_clone_tutorial/common/widgets/custom_button.dart';
-import 'package:amazon_clone_tutorial/common/widgets/custom_textfield.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/features/auth/services/auth_service.dart';
+import 'package:style_sphere/common/widgets/custom_button.dart';
+import 'package:style_sphere/common/widgets/custom_textfield.dart';
+import 'package:style_sphere/constants/global_variables.dart';
+import 'package:style_sphere/features/auth/services/auth_service.dart';
 import 'package:flutter/material.dart';
 
 enum Auth {
@@ -11,6 +11,7 @@ enum Auth {
 
 class AuthScreen extends StatefulWidget {
   static const String routeName = '/auth-screen';
+
   const AuthScreen({Key? key}) : super(key: key);
 
   @override
