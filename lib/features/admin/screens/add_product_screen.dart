@@ -1,16 +1,17 @@
 import 'dart:io';
 
-import 'package:amazon_clone_tutorial/common/widgets/custom_button.dart';
-import 'package:amazon_clone_tutorial/common/widgets/custom_textfield.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/constants/utils.dart';
-import 'package:amazon_clone_tutorial/features/admin/services/admin_services.dart';
+import 'package:style_sphere/common/widgets/custom_button.dart';
+import 'package:style_sphere/common/widgets/custom_textfield.dart';
+import 'package:style_sphere/constants/global_variables.dart';
+import 'package:style_sphere/constants/utils.dart';
+import 'package:style_sphere/features/admin/services/admin_services.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 
 class AddProductScreen extends StatefulWidget {
   static const String routeName = '/add-product';
+
   const AddProductScreen({Key? key}) : super(key: key);
 
   @override
