@@ -1,9 +1,9 @@
-import 'package:amazon_clone_tutorial/common/widgets/custom_button.dart';
-import 'package:amazon_clone_tutorial/constants/global_variables.dart';
-import 'package:amazon_clone_tutorial/features/admin/services/admin_services.dart';
-import 'package:amazon_clone_tutorial/features/search/screens/search_screen.dart';
-import 'package:amazon_clone_tutorial/models/order.dart';
-import 'package:amazon_clone_tutorial/providers/user_provider.dart';
+import 'package:style_sphere/common/widgets/custom_button.dart';
+import 'package:style_sphere/constants/global_variables.dart';
+import 'package:style_sphere/features/admin/services/admin_services.dart';
+import 'package:style_sphere/features/search/screens/search_screen.dart';
+import 'package:style_sphere/models/order.dart';
+import 'package:style_sphere/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 class OrderDetailScreen extends StatefulWidget {
   static const String routeName = '/order-details';
   final Order order;
+
   const OrderDetailScreen({
     Key? key,
     required this.order,
